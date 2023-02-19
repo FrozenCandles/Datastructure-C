@@ -1,0 +1,50 @@
+digraph G {    graph [nodesep=0.1]    node [shape=circle]    edge [arrowhead=vee]    45[group =45]    16 [group=16]    45 -> 16
+    0 [group=0]    16 -> 0
+    _0 [group=0, label="", width=0, style=invis]
+    0 -> _0 [style=invis]
+    5 [group=5]
+    0 -> 5
+    2 [group=2]    5 -> 2
+    _2 [group=2, label="", width=0, style=invis]
+    2 -> _2 [style=invis]
+    2 -> 3
+    _5 [group=5, label="", width=0, style=invis]
+    5 -> _5 [style=invis]
+    7 [group=7]
+    5 -> 7
+    7 -> 6
+    _7 [group=7, label="", width=0, style=invis]
+    7 -> _7 [style=invis]
+    13 [group=13]
+    7 -> 13
+    8 [group=8]    13 -> 8
+    _8 [group=8, label="", width=0, style=invis]
+    8 -> _8 [style=invis]
+    8 -> 11
+    _13 [group=13, label="", width=0, style=invis]
+    13 -> _13 [style=invis]
+    {rank=same; _13; 11}
+    {rank=same; _5; 6}
+    _16 [group=16, label="", width=0, style=invis]
+    16 -> _16 [style=invis]
+    34 [group=34]
+    16 -> 34
+    31 [group=31]    34 -> 31
+    29 [group=29]    31 -> 29
+    29 -> 17
+    _29 [group=29, label="", width=0, style=invis]
+    29 -> _29 [style=invis]
+    _31 [group=31, label="", width=0, style=invis]
+    31 -> _31 [style=invis]
+    _34 [group=34, label="", width=0, style=invis]
+    34 -> _34 [style=invis]
+    40 [group=40]
+    34 -> 40
+    40 -> 39
+    _40 [group=40, label="", width=0, style=invis]
+    40 -> _40 [style=invis]
+    {rank=same; _16; 17}
+    _45 [group=45, label="", width=0, style=invis]
+    45 -> _45 [style=invis]
+    45 -> 48
+}

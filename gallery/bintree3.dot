@@ -1,0 +1,72 @@
+digraph G {    graph [nodesep=0.1]    node [shape=circle]    edge [arrowhead=vee]    43[group =43]    32 [group=32]    43 -> 32
+    30 [group=30]    32 -> 30
+    26 [group=26]    30 -> 26
+    14 [group=14]    26 -> 14
+    12 [group=12]    14 -> 12
+    8 [group=8]    12 -> 8
+    3 [group=3]    8 -> 3
+    _3 [group=3, label="", width=0, style=invis]
+    3 -> _3 [style=invis]
+    3 -> 5
+    _8 [group=8, label="", width=0, style=invis]
+    8 -> _8 [style=invis]
+    8 -> 10
+    _12 [group=12, label="", width=0, style=invis]
+    12 -> _12 [style=invis]
+    12 -> 13
+    _14 [group=14, label="", width=0, style=invis]
+    14 -> _14 [style=invis]
+    20 [group=20]
+    14 -> 20
+    16 [group=16]    20 -> 16
+    _16 [group=16, label="", width=0, style=invis]
+    16 -> _16 [style=invis]
+    18 [group=18]
+    16 -> 18
+    18 -> 17
+    _18 [group=18, label="", width=0, style=invis]
+    18 -> _18 [style=invis]
+    _20 [group=20, label="", width=0, style=invis]
+    20 -> _20 [style=invis]
+    25 [group=25]
+    20 -> 25
+    25 -> 24
+    _25 [group=25, label="", width=0, style=invis]
+    25 -> _25 [style=invis]
+    {rank=same; _20; 24}
+    {rank=same; _14; 16}
+    _26 [group=26, label="", width=0, style=invis]
+    26 -> _26 [style=invis]
+    26 -> 29
+    _30 [group=30, label="", width=0, style=invis]
+    30 -> _30 [style=invis]
+    {rank=same; _30; 29}
+    _32 [group=32, label="", width=0, style=invis]
+    32 -> _32 [style=invis]
+    41 [group=41]
+    32 -> 41
+    37 [group=37]    41 -> 37
+    34 [group=34]    37 -> 34
+    _34 [group=34, label="", width=0, style=invis]
+    34 -> _34 [style=invis]
+    34 -> 35
+    _37 [group=37, label="", width=0, style=invis]
+    37 -> _37 [style=invis]
+    38 [group=38]
+    37 -> 38
+    _38 [group=38, label="", width=0, style=invis]
+    38 -> _38 [style=invis]
+    38 -> 39
+    _41 [group=41, label="", width=0, style=invis]
+    41 -> _41 [style=invis]
+    {rank=same; _41; 39}
+    _43 [group=43, label="", width=0, style=invis]
+    43 -> _43 [style=invis]
+    48 [group=48]
+    43 -> 48
+    48 -> 47
+    _48 [group=48, label="", width=0, style=invis]
+    48 -> _48 [style=invis]
+    48 -> 49
+    {rank=same; _43; 47}
+}
